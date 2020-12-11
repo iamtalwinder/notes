@@ -47,20 +47,26 @@
 2. Write any two characteristics of a system. `2 times`
 3. Write elements(components) of a system. `2 times`
 4. What is an Open system? Give an example.
-5. What is difference between Open and Closed System? `2 times`
+5. What is difference between Open and Closed System? `2 times` `important`
 6. Difference between Physical and Abstract System
 7. Why is system evaluation necessary?
 8. Differentiate between sub-system and supra-system.
 9. What is Systems Approach? `2 times`
+10. What are informal systems? `2 times` `*`
+11. What are formal systems? `2 times` `*`
+12. Difference between formal and informal systems `2 times` `important` `*`
 
 ### Long
 
 1. Elaborate in detail the various types of systems.
-2. What are various types of systems? Explain its Characteristics.
+2. What are various types of systems? Explain its Characteristics. `important`
 3. What do you mean by the term ‘System’? Discuss the elements(components) and characteristics of a
-   system. `2 times`
+   system. `2 times` `important`
 4. What do you understand by System? Explain different concepts of System with
    examples.
+5. Differentiate the following : `*`
+   1. Structured vs. Unstructured Decisions
+   2. Formal vs. Informal systems
 
 ## Topics
 
