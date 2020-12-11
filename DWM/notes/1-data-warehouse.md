@@ -14,6 +14,7 @@
       - [Integrated](#integrated)
       - [Time-variant](#time-variant)
       - [Non-volatile](#non-volatile)
+  - [REFERENCES](#references)
 
 ## Previous Year Questions
 
@@ -114,3 +115,9 @@ The data warehouse is a physically separate data storage, which is transformed f
 <p align="center">
   <img src="./imgs/non-volatile.png" alt="non-volatile">
 </p>
+
+## REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse)
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/characteristics-and-functions-of-data-warehouse/)
