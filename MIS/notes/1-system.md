@@ -1,8 +1,8 @@
-# Topic
+# System
 
 # Content
 
-- [Topic](#topic)
+- [System](#system)
 - [Content](#content)
   - [Previous Year Questions](#previous-year-questions)
     - [Short](#short)
