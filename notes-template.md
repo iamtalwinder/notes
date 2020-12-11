@@ -32,5 +32,5 @@
 <br />
 
 <p align="center">
-  <img src="../imgs/" alt="">
+  <img src="./imgs/" alt="">
 </p>
