@@ -37,6 +37,8 @@
       - [Two-Tier Architecture](#two-tier-architecture)
       - [Three-Tier Architecture `important`](#three-tier-architecture-important)
       - [REFERENCES](#references-4)
+    - [Cost of data warehouse](#cost-of-data-warehouse)
+      - [REFERENCES](#references-5)
 
 ## Previous Year Questions
 
@@ -310,3 +312,94 @@ Data Warehouse management should not be complicated.
 - [www.javatpoint.com](https://www.javatpoint.com/data-warehouse-architecture)
 
 - [www.panoply.io](https://panoply.io/data-warehouse-guide/data-warehouse-architecture-traditional-vs-cloud/)
+
+### Cost of data warehouse
+
+Components that effect the cost of a data warehouse:
+
+- storage,
+- softwares,
+- human resources
+
+1. **Storage:** you can store your data warehouse on in-house servers or in the cloud.
+
+   1. **Cloud Storage:**
+
+      - Three types of cloud-based storage: cold, warm, and hot storage.
+      - Temperature of your data determines how often that data is accessed.
+      - Since your data warehouse will be feeding into your analytics, you will
+        need “hot” storage.
+      - Price breakdown for three of the top “hot” storage solutions:
+        1. **Amazon Redshift**
+           - costs 0.08$ per GB.
+           - flat cost, meaning that the prices won’t go up or down depending on your data use.
+           - expensive than other solutions.
+           - costs $1000+ per TB per year.
+        2. **Google BigQuery**
+           - costs 0.02$ per GB.
+           - variable cost.
+           - additional access prices -- charges extra $0.05 for every 100GB that the service accesses
+             for you.
+           - costs $720+ per TB per year
+        3. **Microsoft Azure**
+           - Blob pricing modal -- prices go up the more data that you store.
+           - first 50 TB per month, costs 0.0184$ per GB, after that, the prices go up.
+           - additional access prices -- every 10,000 write operations will cost an extra 0.05$.
+           - costs $700+ per TB per year.
+
+   2. **In-house storage:**
+      Storage costs for an in-house data warehouse can be $12K per month.
+
+   **Total storage cost estimate:** every additional TB of data will cost $1000 per year. An a mid-sized data warehouse would use about $12,000 per year in storage alone.
+
+2. **Software:**
+
+   1. **Data Centralization**
+      1. **Apache Hadoop:** Open source.
+      2. **Talend:** Open source.
+      3. **FlyData:** Pricing is variable, and ranges anywhere between $200 and $2000 per month.
+      4. **RJMetrics:** costs between $500 and $2000 per month.
+   2. **Data Visualization**
+      1. **R:** Open source.
+      2. **D3.js:** Open source.
+      3. **Chartio:** between $500 and $2000 per month.
+      4. **Tableau:** $70 per user, per month.
+      5. **QlikView:** $25 per user.
+
+   **Total cost for software:** taking a conservative median price for both ETL and visualization
+   software, projected costs will most likely be around $2000 per month, or $24,000 per year.
+
+3. **Human Resources:**
+
+   1. **Information Systems (IS) Manager:**
+
+      - An IS Manager is required to oversee the team running your warehouse and keep all the
+        systems in check.
+      - $7000-10,000 per month
+
+   2. **Backend Developer:**
+
+      - Responsible for installing and maintaining all of your ETL software and making sure that
+        it is working in tandem with your storage service.
+      - $6000-8000 per month.
+
+   3. **Database Architect (DBA):**
+
+      - Determine the structural requirements of your data warehouse and propose the best solution
+        for unifying all of your existing data sources into it.
+      - $10,000-12,000 per month.
+
+   4. **Data Analyst:**
+
+      - Responsible for analyzing and visualizing your business intelligence in a way that will
+        produce actionable insights.
+      - $5000-8000 per month.
+
+   **Total cost of human resources:** Assuming you only get one person for each position outlined
+   above, your costs can be as high as $28,000-$38,000 a month, or roughly $432,000 a year.
+
+**Total yearly cost estimate** for storage, software, and staff will be around $468,000.
+
+#### REFERENCES
+
+- [www.cooladata.com](https://www.cooladata.com/cost-of-building-a-data-warehouse/)
