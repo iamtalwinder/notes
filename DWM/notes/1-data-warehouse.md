@@ -9,12 +9,34 @@
     - [long](#long)
   - [Topics](#topics)
     - [Data Warehouse(DW) `important`](#data-warehousedw-important)
+      - [REFERENCES](#references)
     - [Characteristics of Data Warehouse `important`](#characteristics-of-data-warehouse-important)
       - [Subject-Oriented](#subject-oriented)
       - [Integrated](#integrated)
       - [Time-variant](#time-variant)
       - [Non-volatile](#non-volatile)
-  - [REFERENCES](#references)
+      - [REFERENCES](#references-1)
+    - [Need of Data Warehouse](#need-of-data-warehouse)
+      - [Business User](#business-user)
+      - [Store historical data](#store-historical-data)
+      - [Make strategic decisions](#make-strategic-decisions)
+      - [For data consistency and quality](#for-data-consistency-and-quality)
+      - [High response time](#high-response-time)
+      - [REFERENCES](#references-2)
+    - [Advantages of Data Warehouse](#advantages-of-data-warehouse)
+      - [REFERENCES](#references-3)
+    - [Applications of Data Warehouse](#applications-of-data-warehouse)
+    - [Architecture(Structure) of Data Warehouse](#architecturestructure-of-data-warehouse)
+      - [Properties of Data Warehouse Architectures](#properties-of-data-warehouse-architectures)
+        - [Separation](#separation)
+        - [Scalability](#scalability)
+        - [Extensibility](#extensibility)
+        - [Security](#security)
+        - [Administerability](#administerability)
+      - [Single-Tier Architecture](#single-tier-architecture)
+      - [Two-Tier Architecture](#two-tier-architecture)
+      - [Three-Tier Architecture `important`](#three-tier-architecture-important)
+      - [REFERENCES](#references-4)
 
 ## Previous Year Questions
 
@@ -28,17 +50,17 @@
 
 1. What is a Data Warehouse? What are the characteristics of a data warehouse? What is the
    need for a data warehouse? `important`
-2. How much does a data warehouse cost? Write their applications and uses.
-3. Discuss the steps of building data warehouse by considering various technical aspects.
-4. Explain the Design/Technical/Implementation considerations to build a Data Warehouse.
-5. Define Data Warehousing. What is the need for data warehousing? Discuss the structure of a
+2. Elaborate the 3-tier data warehouse architecture.
+3. What is Data Warehouse? Discuss its architecture with the help of diagram.
+4. Define Data Warehousing. What is the need for data warehousing? Discuss the structure of a
    data warehouse.
-6. What are the various designs Consideration of a Data Warehouse? Why data summarization and
+5. How much does a data warehouse cost? Write their applications and uses.
+6. Discuss the steps of building data warehouse by considering various technical aspects.
+7. Explain the Design/Technical/Implementation considerations to build a Data Warehouse.
+8. What are the various designs Consideration of a Data Warehouse? Why data summarization and
    Data cleaning is done?
-7. Elaborate the concept of discovery driven exploration of Data Warehouse with the help of an
+9. Elaborate the concept of discovery driven exploration of Data Warehouse with the help of an
    example.`2 times`
-8. Elaborate the 3-tier data warehouse architecture.
-9. What is Data Warehouse? Discuss its architecture with the help of diagram.
 
 ## Topics
 
@@ -55,6 +77,10 @@
   - It includes current and historical data to provide a historical perspective of information.
   - Its usage is read-intensive.
   - It contains a few large tables.
+
+#### REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse)
 
 ### Characteristics of Data Warehouse `important`
 
@@ -116,8 +142,171 @@ The data warehouse is a physically separate data storage, which is transformed f
   <img src="./imgs/non-volatile.png" alt="non-volatile">
 </p>
 
-## REFERENCES
+#### REFERENCES
 
 - [www.javatpoint.com](https://www.javatpoint.com/data-warehouse)
 
 - [www.geeksforgeeks.org](https://www.geeksforgeeks.org/characteristics-and-functions-of-data-warehouse/)
+
+### Need of Data Warehouse
+
+#### Business User
+
+Business users require a data warehouse to view summarized data from the past. Since these
+people are non-technical, the data may be presented to them in an elementary form.
+
+#### Store historical data
+
+Data Warehouse is required to store the time variable data from the past. This input is made
+to be used for various purposes.
+
+#### Make strategic decisions
+
+Some strategies may be depending upon the data in the data warehouse. So, data warehouse contributes
+to making strategic decisions.
+
+#### For data consistency and quality
+
+Bringing the data from different sources at a commonplace, the user can effectively undertake to
+bring the uniformity and consistency in data.
+
+#### High response time
+
+The data warehouses are designed to read intensive; therefore, they have a relatively fast response
+time than other databases.
+
+#### REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse)
+
+### Advantages of Data Warehouse
+
+- Understand business trends and make better forecasting decisions.
+- Data Warehouses are designed to perform well enormous amounts of data.
+- The structure of data warehouses is more accessible for end-users to navigate, understand,
+  and query.
+- Queries that would be complex in many normalized databases could be easier to build and
+  maintain in data warehouses.
+- Provide the capabilities to analyze a large amount of historical data.
+- Efficient method to manage demand for lots of information from lots of users.
+
+#### REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse)
+
+### Applications of Data Warehouse
+
+See applications [here](https://datawarehouseinfo.com/data-warehouse/applications-of-a-data-warehouse/)
+
+### Architecture(Structure) of Data Warehouse
+
+#### Properties of Data Warehouse Architectures
+
+##### Separation
+
+Analytical and transactional processing should be keep apart as much as possible.
+
+##### Scalability
+
+Hardware and software architectures should be simple to upgrade
+
+##### Extensibility
+
+The architecture should be able to integrate new operations and technologies without redesigning the
+whole system.
+
+##### Security
+
+Monitoring accesses are necessary because of the strategic data stored in the data warehouses.
+
+##### Administerability
+
+Data Warehouse management should not be complicated.
+
+#### Single-Tier Architecture
+
+<br />
+
+<p align="center">
+  <img src="./imgs/single-tier-architecture.png" alt="single-tier-architecture">
+</p>
+
+<br />
+
+- Not common in practice.
+
+- Its purpose is to minimize the amount of data stored to reach this goal; it removes data redundancies.
+
+- Only physical layer is source layer and data warehouse is virtual.
+
+- Data warehouse is implemented as a multidimensional view of operational data.
+
+- Fail to meet separation property of data warehouse architecture.
+
+#### Two-Tier Architecture
+
+<br />
+
+<p align="center">
+  <img src="./imgs/two-tier-architecture.png" alt="two-tier-architecture">
+</p>
+
+<br />
+
+- Satisfy requirement of separation.
+- Consists of four subsequent data flow stages:
+
+  1. **Source layer**
+
+     - A data warehouse system uses a heterogeneous source of data.
+     - The data may come from corporate relational databases or information system outside the
+       corporate walls.
+
+  2. **Data Staging**
+
+     - Source data extracted, cleansed to remove inconsistencies and fill gaps, and integrated to
+       merge heterogeneous sources into one standard schema.
+
+  3. **Data Warehouse layer**
+
+     - Information is saved to one logically centralized individual repository: a data warehouse.
+     - The data warehouses can be directly accessed, but it can also be used as a source for creating
+       data marts.
+     - Data marts replicate data warehouse contents and are designed for specific enterprise departments.
+     - Meta-data repositories store information on sources, access procedures, data staging, users,
+       data mart schema, and so on.
+
+  4. **Analysis**
+
+     - Data is accessed to issue reports, dynamically analyze information, and simulate hypothetical
+       business scenarios.
+     - It should feature aggregate information navigators, complex query optimizers, and customer-friendly
+       GUIs.
+
+#### Three-Tier Architecture `important`
+
+<br />
+
+<p align="center">
+  <img src="./imgs/three-tier-architecture.jpg" alt="three-tier-architecture">
+</p>
+
+<br />
+
+- **Bottom tier:** This tier contains the database server used to extract data from many different sources, such as from transactional databases used for front-end applications.
+
+- **Middle tier:** The middle tier houses an OLAP server, which transforms the data into a structure better suited for analysis and complex querying.
+
+  The OLAP server can work in two ways:
+
+  - **A Relational OLAP (ROLAP) model:** an extended relational DBMS that maps functions on multidimensional data to standard relational operations.
+
+  - **A Multidimensional OLAP (MOLAP) model:** a particular purpose server that directly implements multidimensional information and operations.
+
+- **Top tier:** The top tier is the client layer. This tier holds the tools used for high-level data analysis, querying reporting, and data mining.
+
+#### REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse-architecture)
+
+- [www.panoply.io](https://panoply.io/data-warehouse-guide/data-warehouse-architecture-traditional-vs-cloud/)
