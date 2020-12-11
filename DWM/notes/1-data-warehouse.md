@@ -70,7 +70,7 @@ A data warehouse target on the modeling and analysis of data for decision-makers
 <br />
 
 <p align="center">
-  <img src="../imgs/subject-oriented.png" alt="subject-oriented">
+  <img src="./imgs/subject-oriented.png" alt="subject-oriented">
 </p>
 
 #### Integrated
@@ -85,7 +85,7 @@ A data warehouse integrates various heterogeneous data sources like RDBMS, flat 
 <br />
 
 <p align="center">
-  <img src="../imgs/integrated.png" alt="integrated">
+  <img src="./imgs/integrated.png" alt="integrated">
 </p>
 
 #### Time-variant
@@ -112,5 +112,5 @@ The data warehouse is a physically separate data storage, which is transformed f
 <br />
 
 <p align="center">
-  <img src="../imgs/non-volatile.png" alt="non-volatile">
+  <img src="./imgs/non-volatile.png" alt="non-volatile">
 </p>
