@@ -340,7 +340,6 @@ be used to:
   similar needs
 
 </details>
-<br/>
 
 #### REFERENCES
 
