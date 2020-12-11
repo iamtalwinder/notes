@@ -227,14 +227,3 @@ The study of systems concepts has three basic implications:
 
 - SYSTEMS ANALYSIS AND DESIGN
   BY ELIAS M. AWAD
-
-<details>
-<summary>Details</summary>
-
-</details>
-
-<br />
-
-<p align="center">
-  <img src="./imgs/" alt="">
-</p>
