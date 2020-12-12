@@ -307,9 +307,9 @@ The study of systems concepts has three basic implications:
 
 #### Man-made information System 
 
-An arrangement of people, data, processes, and information technology that interact to
-collect, process, store, and provide as output the information needed to support an
-organization.
+Information systems are combinations of hardware, software, and telecommunications networks that
+people build and use to collect, create, and distribute useful data, typically in organizational
+settings.
 
 ### REFERENCES
 
@@ -318,6 +318,8 @@ organization.
 - [www.tutorialspoint.com](https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_overview.htm)
 
 - [www.landscapemanagementsystem.org](http://landscapemanagementsystem.org/ecosystem-management/systems.html)
+
+- [www.bus206.pressbooks.com](https://bus206.pressbooks.com/chapter/chapter-1/)
 
 - SYSTEMS ANALYSIS AND DESIGN
   BY ELIAS M. AWAD
