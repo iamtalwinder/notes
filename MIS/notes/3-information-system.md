@@ -34,6 +34,10 @@
         - [REFERENCES](#references-4)
       - [Transaction processing system (TPS)](#transaction-processing-system-tps)
         - [REFERENCES](#references-5)
+    - [Electronic Data Processing (EDP)](#electronic-data-processing-edp)
+        - [REFERENCES](#references-6)
+    - [Office Automation Systems (OAS)](#office-automation-systems-oas)
+        - [REFERENCES](#references-7)
 
 ## Previous Year Questions
 
@@ -43,18 +47,18 @@
 2.  What are various types of Information Systems?
 3.  List components of information system
 4.  What is an Information system? What are its characteristics?
-5.  What do you mean by Functional Information System?
+5.  What do you mean by Functional Information System? `*`
 6.  Describe five technology and business trends that have enhanced the role of
-    information systems in today’s competitive business environment.
+    information systems in today’s competitive business environment. `*`
 7.  What activities convert raw data to make information in information systems? What
-    is their relationship to feedback?
+    is their relationship to feedback? `*`
 8.  What are the organizational, management, and technology dimensions of information
-    systems?
+    systems? `*`
 9.  What are the key management challenges involved in building, operating and
-    maintaining information systems today?
+    maintaining information systems today? `*`
 10. What are the challenges posed by the existence of various types of information
-    systems in the enterprise? How can these challenges be addressed?
-11. How an information system is designed?
+    systems in the enterprise? How can these challenges be addressed? `*`
+11. How an information system is designed? `*`
 
 ### Long
 
@@ -62,10 +66,10 @@
    of Information System.
 2. Define an Information System. Discuss different kinds of information systems in detail.
 3. Explain the phases in the development of information system. Which is the most critical
-   phase and why?
-4. Discuss the process of developing an information system.
+   phase and why? `*`
+4. Discuss the process of developing an information system. `*`
 5. Explain various types of Information Systems in detail along with their analysis and
-   design.
+   design. `*`
 
 ## Topics
 
@@ -147,7 +151,7 @@ Information should be available when it is needed.
 
 #### REFERENCES
 
-- [www.slideshare.net](https://www.slideshare.net/Amitgehu/characteristics-of-mis)
+- [www.guru99.com](https://www.guru99.com/rol-component-mis.html)
 
 ### Types
 
@@ -212,3 +216,37 @@ Information should be available when it is needed.
 ##### REFERENCES
 
 - [sites.google.com](https://sites.google.com/site/informationsystemsparttime2016/question4/tps)
+
+### Electronic Data Processing (EDP)
+
+- processing of data using electronic means such as computers, calculators, servers and
+  other similar electronic equipment.
+- it is fast, accurate, reliable and flexible
+- used by all companies dealing with real time data processing e.g, ecommerce industry,
+  banking services, and record keeping etc.
+- **stages:** collection --> preparation --> input --> processing --> storage.
+- **Benefits:**
+  - Reduce cost.
+  - Increase efficiency.
+  - Improves internal and external collaboration.
+  - Increase data security.
+  - Reduce error.
+  - Reduce the duplication of effort i:e repeated entries.
+  - Better error handling.
+
+##### REFERENCES
+
+- [www.planningtank.com](https://planningtank.com/computer-applications/electronic-data-processing)
+
+### Office Automation Systems (OAS)
+
+- computer-based information system that collects, processes, stores and
+  transmits electronic messages, documents and other forms of communication among
+  individuals, work groups and organizations.
+- combination of different types technologies such as word processors, spreadsheets,
+  electronic mail, and so on.
+- aim is to improve efficiency and productivity of employees.
+
+##### REFERENCES
+
+- [www.eternalsunshineoftheismind.wordpress.com](https://eternalsunshineoftheismind.wordpress.com/2013/03/06/office-automation-systems-oas/)
