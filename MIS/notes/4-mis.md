@@ -8,6 +8,9 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Definition](#definition)
+    - [Components](#components)
+    - [Characteristics](#characteristics)
 
 ## Previous Year Questions
 
@@ -58,3 +61,21 @@
     example.
 
 ## Topics
+
+### Definition
+
+- used for decision-making, and for the coordination, control, analysis, and visualization of
+  information in an organization.
+- involves people, processes and technology in an organizational context.
+- In a corporate setting, the ultimate goal of the use of a MIS is to increase the value and profits
+  of the business.
+- This is done by providing managers with timely and appropriate information allowing them to make
+  effective decisions within a shorter period of time.
+
+### Components
+
+Same as IS
+
+### Characteristics
+
+Same as IS
