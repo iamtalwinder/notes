@@ -19,7 +19,7 @@
       - [Sales and Marketing](#sales-and-marketing)
       - [Production](#production)
       - [REFERENCES](#references-3)
-    - [OLAP Operation `important`](#olap-operation-important)
+    - [OLAP Operations `important`](#olap-operations-important)
       - [Roll up](#roll-up)
       - [Roll down](#roll-down)
       - [Slice](#slice)
@@ -110,7 +110,7 @@
 
 - [www.javatpoint.com](https://www.javatpoint.com/what-is-olap)
 
-### OLAP Operation `important`
+### OLAP Operations `important`
 
 #### Roll up
 
