@@ -26,21 +26,29 @@
       - [Dice](#dice)
       - [Pivot](#pivot)
       - [REFERENCES](#references-4)
+    - [Types of OLAP](#types-of-olap)
+      - [Multidimensional OLAP (MOLAP)](#multidimensional-olap-molap)
+      - [Relational OLAP (ROLAP)](#relational-olap-rolap)
+      - [Hybrid OLAP (HOLAP)](#hybrid-olap-holap)
+      - [REFERENCES](#references-5)
+    - [Online transaction processing (OLTP)](#online-transaction-processing-oltp)
+      - [REFERENCES](#references-6)
+    - [OLAP vs OLTP](#olap-vs-oltp)
 
 ## Previous Year Questions
 
 ### Short
 
 1. What is OLAP data warehouse?
-2. What is Indexing & Querying in OLAP? `2 times`
+2. What is Indexing & Querying in OLAP? `2 times` `*`
 3. Differentiate OLAP & OLTP
-4. What are the storage models of OLAP?
-5. What is OLAM? How is it different from OLAP?
+4. What are the storage models of OLAP? `*`
+5. What is OLAM? How is it different from OLAP? `*`
 6. What are OLAP & OLTP?
 
 ### Long
 
-1. What is OLAP? Discuss the architecture of OLAP in detail.
+1. What is OLAP? Discuss the architecture of OLAP in detail. `*`
 2. What is OLAP and OLTP? Differentiate OLAP and OLTP. `important`
 3. Define and compare OLAP and OLTP. Discuss the various OLAP operations with
    examples. `2 times` `important`
@@ -175,3 +183,98 @@
 - [www.javatpoint.com](https://www.javatpoint.com/olap-operations)
 - [www.searchdatamanagement.techtarget.com](https://searchdatamanagement.techtarget.com/definition/OLAP)
 - [www.wikipedia.org](https://en.wikipedia.org/wiki/Online_analytical_processing)
+
+### Types of OLAP
+
+#### Multidimensional OLAP (MOLAP)
+
+- Stores data in an optimized multi-dimensional array storage, rather than in a relational database.
+- Generally utilize a pre-calculated data set referred to as a data cube.
+- The data cube contains all the possible answers to a given range of questions.
+- Have a very fast response to queries.
+- Updating can take a long time depending on the degree of pre-computation.
+- **Advantages**
+
+  - **Excellent Performance:** A MOLAP cube is built for fast information retrieval, and is optimal
+    for slicing and dicing operations.
+
+  - **Can perform complex calculations:** All evaluation have been pre-generated when the cube is
+    created. Hence, complex calculations are not only possible, but they return quickly.
+
+- **Disadvantages**
+
+  - **Limited in the amount of information it can handle:** Because all calculations are performed
+    when the cube is built, it is not possible to contain a large amount of data in the cube itself.
+
+  - **Requires additional investment:** Cube technology is generally proprietary and does not already exist
+    in the organization. Therefore, to adopt MOLAP technology, chances are other investments in human
+    and capital resources are needed.
+
+#### Relational OLAP (ROLAP)
+
+- Works directly with relational databases and does not require pre-computation.
+- The base data and the dimension tables are stored as relational tables and new tables are created
+  to hold the aggregated information.
+- It depends on a specialized schema design. A database which was designed for OLTP will not function
+  well as a ROLAP database.
+- This methodology relies on manipulating the data stored in the relational database to give the
+  appearance of traditional OLAP's slicing and dicing functionality. In essence, each action of
+  slicing and dicing is equivalent to adding a "WHERE" clause in the SQL statement.
+- **Advantages**
+
+  - **Can handle large amounts of information:** The data size limitation of ROLAP technology is depends
+    on the data size of the underlying RDBMS. So, ROLAP itself does not restrict the data amount.
+
+  - **Lot of features:** RDBMS already comes with a lot of features. So ROLAP technologies, (works on
+    top of the RDBMS) can control these functionalities.
+
+- **Disadvantages**
+
+  - **Performance can be slow:** Each ROLAP report is a SQL query (or multiple SQL queries) in the
+    relational database, the query time can be prolonged if the underlying data size is large.
+
+  - **Not suitable for all situation:** Since ROLAP tools rely on SQL for all of the computations,
+    they are not suitable when the model is heavy on calculations which don't translate well into SQL.
+    Examples of such models include budgeting, allocations, financial reporting and other scenarios.
+
+#### Hybrid OLAP (HOLAP)
+
+- Incorporates the best features of MOLAP and ROLAP into a single architecture.
+- Allows the model designer to decide which portion of the data will be stored in MOLAP and which portion
+  in ROLAP.
+- **Vertical partitioning:** In this mode HOLAP stores aggregations in MOLAP for fast query performance,
+  and detailed data in ROLAP to optimize time of cube processing.
+- **Horizontal partitioning:** In this mode HOLAP stores some slice of data, usually the more recent one in
+  MOLAP for fast query performance, and older data in ROLAP
+
+- **Advantages:**
+
+  - HOLAP provide benefits of both MOLAP and ROLAP.
+  - It provides fast access at all levels of aggregation.
+  - HOLAP balances the disk space requirement, as it only stores the little information on the OLAP server
+    and the detail record remains in the relational database.
+
+- **Disadvantages:**
+
+  - HOLAP architecture is very complicated because it supports both MOLAP and ROLAP servers.
+
+#### REFERENCES
+
+- [www.javatpoint.com](https://www.javatpoint.com/data-warehouse-types-of-olap)
+- [www.wikipedia.org](https://en.wikipedia.org/wiki/Online_analytical_processing)
+
+### Online transaction processing (OLTP)
+
+- Information systems typically facilitate and manage transaction-oriented applications.
+- The term "transaction" can have two different meanings, both of which might apply:
+  - in the realm of computers or database transactions it denotes an atomic change of state.
+  - in the realm of business or finance, the term typically denotes an exchange of economic entities.
+- It may use transactions of the first type to record transactions of the second.
+
+#### REFERENCES
+
+- [www.wikipedia.org](https://en.wikipedia.org/wiki/Online_transaction_processing)
+
+### OLAP vs OLTP
+
+See comparison [here](https://www.stitchdata.com/resources/oltp-vs-olap/)
