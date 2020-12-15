@@ -39,6 +39,15 @@
       - [REFERENCES](#references-4)
     - [Cost of data warehouse](#cost-of-data-warehouse)
       - [REFERENCES](#references-5)
+    - [Building a data warehouse](#building-a-data-warehouse)
+      - [Requirements Gathering](#requirements-gathering)
+      - [Setting Up Your Physical Environments](#setting-up-your-physical-environments)
+      - [Introducing Data Modeling](#introducing-data-modeling)
+      - [Choosing ETL Solution](#choosing-etl-solution)
+      - [Online Analytic Processing (OLAP) Cube](#online-analytic-processing-olap-cube)
+      - [Creating the Front End](#creating-the-front-end)
+      - [Optimizing Queries](#optimizing-queries)
+      - [Establishing a Rollout](#establishing-a-rollout)
 
 ## Previous Year Questions
 
@@ -403,3 +412,107 @@ Components that effect the cost of a data warehouse:
 #### REFERENCES
 
 - [www.cooladata.com](https://www.cooladata.com/cost-of-building-a-data-warehouse/)
+
+### Building a data warehouse
+
+#### Requirements Gathering
+
+- This phase is more about determining your business needs, aligning those to your data warehouse,
+  and, most importantly, getting everyone on-board with the data warehousing solution.
+- This stage should focus on the following objectives:
+  - Aligning department goals with the overall project.
+  - Determining the scope of the project in relation to business objectives.
+  - Find-out what data will be usefull and where it is stored.
+  - Creating a disaster recovery plan in the case of system failure
+  - Thinking about each layer of security (e.g., threat detection, threat mitigation,
+    identity controls, monitoring, risk reduction, etc.)
+  - Anticipating compliance needs and mitigating regulatory risks
+
+#### Setting Up Your Physical Environments
+
+Data warehouses typically have three primary physical environments — development, testing,
+and production. These will exist on completely separate physical servers.
+
+**Why do you need three separate environments?**
+
+- You need a way to test changes before they move into the production environment.
+- Some security best practices require that testers and developers never have access
+  to production data.
+- Having a development environment is a necessity, and dev environments exist in a unique
+  state of flux compared to production or test environments.
+- Running tests can often introduce breakpoints and hang your entire server.
+- Running tests against data typically uses extreme data sets which can be catastrophic
+  for performance if production, testing, and development environment are sharing the
+  same resources.
+
+#### Introducing Data Modeling
+
+- Process of visualizing data distribution in data warehouse i.e. what goes where and why
+  it goes there.
+- Helps you visualize the relationships between data, and it's useful for setting standardized
+  naming conventions, creating relationships between data sets, and establishing compliance
+  and security processes that align with your overarching IT goals.
+- Takes place at the data mart level and branches out into your data warehouse.
+- Data marts are where all of those team-specific data sets are stored, and queries are processed.
+- The three most popular data models for warehouses are:
+  1. Snowflake Schema
+  2. Star Schema
+  3. Galaxy Schema
+- The model that you choose will impact the structure of your data warehouse and data marts
+  — which impact the ways that you utilize ETL tools and run queries on that data.
+
+#### Choosing ETL Solution
+
+- It is a process you'll use to pull data out of your current tech stack and put it into
+  warehouse.
+- It is responsible for the bulk of the in-between work, choosing a subpar or developing a poor
+  ETL process can break your entire warehouse.
+- You want optimal speeds, good visualization, and the ability to build easy, replicable,
+  and consistent data pipelines between all of your existing architecture and your new
+  warehouse.
+- It's counterpart Extract, Load, Transfer (ELT), will negatively impact the performance of
+  most custom-built warehouses since data is loaded directly into the warehouse before data
+  cleansing and organization occur.
+
+#### Online Analytic Processing (OLAP) Cube
+
+- You will likely need to address OLAP cubes if you're designing your entire database from
+  scratch, or if you have to maintain your own OLAP cube.
+- So, if you plan on using a vendor warehouse solution (e.g., Redshift or BigQuery) you probably
+  won't need to utilize an OLAP cube (cubes are rarely used in either of those solutions\*.)
+- Help you organize all of the data in a multi-dimensional format that makes analyzing it
+  rapid and straightforward.
+
+#### Creating the Front End
+
+- There needs to be front end visualization, so users can immediately understand and apply the
+  results of data queries.
+- There are plenty of tools on the market that help with visualization. BI tools like Tableau
+  or PowerBI for those using BigQuery are great for visualization. You can also develop a
+  custom solution — though that's a significant undertaking.
+- Most small-to-medium-sized businesses lean on established BI kits like those mentioned above.
+  But, some business may need to develop their own BI tools to meet ad-hoc analytic needs.
+
+#### Optimizing Queries
+
+Optimizing your queries is a complex process that's hyper-unique to your specific needs. But,
+there are some general rules-of-thumb to cover.
+
+- Ensure that your production, testing, and development environment have mirrored resources.
+  This will prevent the server from hanging when you push projects from one environment to
+  the next.
+
+- Try to minimize data retrieval. Don't run SELECT on the whole database if you only need a
+  column of results. Instead, run your SELECT query by targeting specific columns.
+  This is especially important if you're paying for your query power separately.
+
+- Understand the limitations of your OLAP vendor. BigQuery uses a hybrid SQL language, and
+  RedShift is built on top of a Postgre fork. Knowing the little nuances baked into your vendor
+  can help you maximize workflows and speed up queries.
+
+#### Establishing a Rollout
+
+Once you're ready to launch your warehouse, it's time to start thinking about education,
+training, and use cases. Most of the time, it will be a week-or-two before your end-users
+start seeing any functionality from that warehouse (at least at-scale). But, they should be
+adequately trained before the rollout is completed.
