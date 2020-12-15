@@ -63,7 +63,7 @@
 3. What do you mean by the term ‘System’? Discuss the elements(components) and characteristics of a
    system. `2 times` `important`
 4. What do you understand by System? Explain different concepts of System with
-   examples.
+   examples. `*`
 5. Differentiate the following : `*`
    1. Structured vs. Unstructured Decisions
    2. Formal vs. Informal systems
