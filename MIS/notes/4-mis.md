@@ -11,27 +11,33 @@
     - [Definition](#definition)
     - [Components](#components)
     - [Characteristics](#characteristics)
+    - [Pitfalls in MIS development](#pitfalls-in-mis-development)
+      - [Poor Existing Management System](#poor-existing-management-system)
+      - [Inadequate Resources](#inadequate-resources)
+      - [No misson statement](#no-misson-statement)
+      - [Poor management of information](#poor-management-of-information)
+      - [Communication Gap](#communication-gap)
+      - [REFERENCE](#reference)
 
 ## Previous Year Questions
 
 ### Short
 
 1.  What is OAS in management information system?
-2.  What is structured decision in management information system?
-3.  What are sub systems in MIS?
-4.  What are the pitfalls in the development of MIS? `important`
-5.  What are the pitfalls in the planning of MIS?
-6.  What is Production MIS?
-7.  What is Financial MIS?
-8.  How Information Technology is related with MIS?Explain
-9.  MIS deals with different classes of decisions.How?
-10. What are the Components of MIS? `important`
-11. Differentiate between MIS and DSS. `2 times` `important`
-12. List functional requirements of Personnel based MIS.
-13. What are the key decisions supported by Personnel MIS?
-14. What are the characteristics of MIS? How do MIS differ from TPS and From DSS?
-15. Describe the relationship between TPS, MIS, and ESS.
-16. How MIS is useful for marketing department of an organization?
+2.  What are sub systems in MIS?
+3.  What are the pitfalls in the development of MIS? `important`
+4.  What are the pitfalls in the planning of MIS?
+5.  What is Production MIS?
+6.  What is Financial MIS?
+7.  How Information Technology is related with MIS?Explain
+8.  MIS deals with different classes of decisions.How?
+9.  What are the Components of MIS? `important`
+10. Differentiate between MIS and DSS. `2 times` `important`
+11. List functional requirements of Personnel based MIS.
+12. What are the key decisions supported by Personnel MIS?
+13. What are the characteristics of MIS? How do MIS differ from TPS and From DSS?
+14. Describe the relationship between TPS, MIS, and ESS.
+15. How MIS is useful for marketing department of an organization?
 
 ### Long
 
@@ -79,3 +85,43 @@ Same as IS
 ### Characteristics
 
 Same as IS
+
+### Pitfalls in MIS development
+
+#### Poor Existing Management System
+
+Even excellent MIS cannot make up poor management system. In fact, the existing management
+systems are the base for Developing MIS. Whatever Shortcomings are associated with the basic
+management system; the same shortcomings can be expected in the developed MIS.
+
+#### Inadequate Resources
+
+Due to poor management, an MIS project may be starved of resources. For successful completion
+of the project, the outlays should be provided separately and once allocated for development of
+MIS, funds should not be diverted to another users
+
+#### No misson statement
+
+Not having the crispy stated mission and purpose for the company is a common weakness.
+Since if it is not terrible clear what business we are in, each major challenge the
+company must face is a completely new challenge and must be analyzed from the ground up. If
+there was a mission statement, some of these problems could be dealt with routinely as opposed to
+their being major crises.
+
+#### Poor management of information
+
+The information is the raw material of decision-making for MIS, and if information is not being
+generated, disseminated, and used for management, then no system-manual or computer is going to
+solve organisational problems.
+
+#### Communication Gap
+
+In MIS, user express information needs and the designer designs the flow chart and graphs
+according to the user requirements. After designing, the programmer incorporates his own ideas
+and interpretations, for developing the system. In these development stages, one undefined
+requirement can develop an incorrect information system.
+
+#### REFERENCE
+
+- [www.academia.edu](https://www.academia.edu/35976719/MANAGEMENT_INFORMATION_SYSTEMS_BCA_302)
+- [www.answers.com](https://www.answers.com/Q/What_are_various_pitfalls_in_MIS)
