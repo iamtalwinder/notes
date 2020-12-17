@@ -1,8 +1,8 @@
-# Topic
+# Miscellaneous
 
 # Content
 
-- [Topic](#topic)
+- [Miscellaneous](#miscellaneous)
 - [Content](#content)
   - [Previous Year Questions](#previous-year-questions)
     - [Short](#short)
