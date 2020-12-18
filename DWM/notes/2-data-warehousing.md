@@ -15,13 +15,13 @@
 
 ### Short
 
-1. How AI is used in data warehousing?
-2. Differentiate between Data Mining & Data Warehousing
+1. How AI is used in data warehousing? `*`
+2. Differentiate between Data Mining & Data Warehousing `*`
 
 ### long
 
-1. Define Data Warehousing. What is the need for data warehousing? Discuss the structure of a data warehouse.
-2. Discuss various applications of data warehousing and data mining.
+1. Define Data Warehousing. What is the need for data warehousing? Discuss the structure of a data warehouse. `important`
+2. Discuss various applications of data warehousing and data mining. `*`
 3. What is Data Warehousing and why we need it? Also explain the architecture of Data
    Warehouse in detail.
 4. What is Data Warehousing? Explain Data warehouse characteristics.
