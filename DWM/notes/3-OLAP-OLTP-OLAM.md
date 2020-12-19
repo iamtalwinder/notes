@@ -34,17 +34,20 @@
     - [Online transaction processing (OLTP)](#online-transaction-processing-oltp)
       - [REFERENCES](#references-6)
     - [OLAP vs OLTP](#olap-vs-oltp)
+    - [Miscellaneous](#miscellaneous)
+      - [What is Indexing & Querying in OLAP?](#what-is-indexing--querying-in-olap)
 
 ## Previous Year Questions
 
 ### Short
 
 1. What is OLAP data warehouse?
-2. What is Indexing & Querying in OLAP? `2 times` `*`
-3. Differentiate OLAP & OLTP
-4. What are the storage models of OLAP? `*`
-5. What is OLAM? How is it different from OLAP? `*`
-6. What are OLAP & OLTP?
+2. What is indexing?
+3. What is Indexing & Querying in OLAP? `2 times`
+4. Differentiate OLAP & OLTP
+5. What are the storage models of OLAP? `*`
+6. What is OLAM? How is it different from OLAP? `*`
+7. What are OLAP & OLTP?
 
 ### Long
 
@@ -278,3 +281,7 @@
 ### OLAP vs OLTP
 
 See comparison [here](https://www.stitchdata.com/resources/oltp-vs-olap/)
+
+### Miscellaneous
+
+#### What is Indexing & Querying in OLAP?
