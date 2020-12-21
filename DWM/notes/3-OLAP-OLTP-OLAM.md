@@ -35,7 +35,10 @@
       - [REFERENCES](#references-6)
     - [OLAP vs OLTP](#olap-vs-oltp)
     - [Miscellaneous](#miscellaneous)
+      - [What is indexing?](#what-is-indexing)
       - [What is Indexing & Querying in OLAP?](#what-is-indexing--querying-in-olap)
+      - [What are the storage models of OLAP?](#what-are-the-storage-models-of-olap)
+      - [What is OLAM? How is it different from OLAP?](#what-is-olam-how-is-it-different-from-olap)
 
 ## Previous Year Questions
 
@@ -45,13 +48,13 @@
 2. What is indexing?
 3. What is Indexing & Querying in OLAP? `2 times`
 4. Differentiate OLAP & OLTP
-5. What are the storage models of OLAP? `*`
-6. What is OLAM? How is it different from OLAP? `*`
+5. What are the storage models of OLAP?
+6. What is OLAM? How is it different from OLAP?
 7. What are OLAP & OLTP?
 
 ### Long
 
-1. What is OLAP? Discuss the architecture of OLAP in detail. `*`
+1. What is OLAP? Discuss the architecture of OLAP in detail.
 2. What is OLAP and OLTP? Differentiate OLAP and OLTP. `important`
 3. Define and compare OLAP and OLTP. Discuss the various OLAP operations with
    examples. `2 times` `important`
@@ -284,4 +287,18 @@ See comparison [here](https://www.stitchdata.com/resources/oltp-vs-olap/)
 
 ### Miscellaneous
 
+#### What is indexing?
+
+see [here](https://www.geeksforgeeks.org/indexing-in-databases-set-1/)
+
 #### What is Indexing & Querying in OLAP?
+
+see [here](https://cs.ou.edu/~database/documents/vg99.pdf)
+
+#### What are the storage models of OLAP?
+
+ROLAP, MOLAP, HOLAP
+
+#### What is OLAM? How is it different from OLAP?
+
+see [here](https://galaktika-soft.com/blog/olap-vs-olam.html)
