@@ -12,6 +12,7 @@
         - [REFERENCES](#references)
       - [Importance of AI](#importance-of-ai)
         - [REFERENCES](#references-1)
+    - [cube computing](#cube-computing)
 
 ## Previous Year Questions
 
@@ -22,6 +23,7 @@
 3. Discuss Discovery driven cube.
 4. What are the efficient methods of cube computation? Discuss any one in brief
 5. Define Data cube.
+6. What is Attribute- Oriented Induction? `2 times`
 
 ### Long
 
@@ -77,3 +79,7 @@ Artificial intelligence can be divided into two different categories: weak and s
 ##### REFERENCES
 
 - [www.stateofai2019.com](https://www.stateofai2019.com/chapter-2-why-is-ai-important/)
+
+### cube computing
+
+see [here](http://ijcsit.com/docs/Volume%205/vol5issue03/ijcsit20140503308.pdf)

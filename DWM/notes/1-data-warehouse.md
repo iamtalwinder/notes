@@ -48,6 +48,7 @@
       - [Creating the Front End](#creating-the-front-end)
       - [Optimizing Queries](#optimizing-queries)
       - [Establishing a Rollout](#establishing-a-rollout)
+    - [Discovery driven exploration of Data Warehouse](#discovery-driven-exploration-of-data-warehouse)
 
 ## Previous Year Questions
 
@@ -516,3 +517,7 @@ Once you're ready to launch your warehouse, it's time to start thinking about ed
 training, and use cases. Most of the time, it will be a week-or-two before your end-users
 start seeing any functionality from that warehouse (at least at-scale). But, they should be
 adequately trained before the rollout is completed.
+
+### Discovery driven exploration of Data Warehouse
+
+see [here](https://patents.google.com/patent/US6094651A/en)
