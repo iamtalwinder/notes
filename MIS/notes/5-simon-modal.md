@@ -13,6 +13,8 @@
       - [Design phase](#design-phase)
       - [Choice phase](#choice-phase)
       - [REFERENCE](#reference)
+    - [Limitation](#limitation)
+      - [REFERENCE](#reference-1)
 
 ## Previous Year Questions
 
@@ -99,3 +101,18 @@ Refers to the selection of an alternative developed in the design phase as the d
 
 - [www.academia.edu](https://www.academia.edu/35976719/MANAGEMENT_INFORMATION_SYSTEMS_BCA_302)
 - [www.ecomputernotes.com](https://ecomputernotes.com/mis/decision-making/explain-the-simons-model-of-decision-making)
+
+### Limitation
+
+- Time Consuming.
+- Compromised Decisions.
+- Subjective Decisions.
+- Biased Decisions.
+- Limited Analysis.
+- Uncontrollable Environmental Factors.
+- Uncertain Future.
+- Responsibility is Diluted.
+
+#### REFERENCE
+
+- [www.iedunote.com](https://www.iedunote.com/decision-making-factors-limitations-ethics)
