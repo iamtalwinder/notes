@@ -32,12 +32,11 @@
 7.  How Information Technology is related with MIS?Explain
 8.  MIS deals with different classes of decisions.How?
 9.  What are the Components of MIS? `important`
-10. Differentiate between MIS and DSS. `2 times` `important`
-11. List functional requirements of Personnel based MIS.
-12. What are the key decisions supported by Personnel MIS?
-13. What are the characteristics of MIS? How do MIS differ from TPS and From DSS?
-14. Describe the relationship between TPS, MIS, and ESS.
-15. How MIS is useful for marketing department of an organization?
+10. List functional requirements of Personnel based MIS.
+11. What are the key decisions supported by Personnel MIS?
+12. What are the characteristics of MIS? How do MIS differ from TPS and From DSS?
+13. Describe the relationship between TPS, MIS, and ESS.
+14. How MIS is useful for marketing department of an organization?
 
 ### Long
 
@@ -50,20 +49,17 @@
 7.  Discuss fundamental pitfalls in Management Information System during design and
     planning.
 8.  Explain the role of marketing in functioning of management information system.
-9.  What is the difference between MIS and DSS? Discuss the role of Decision support
-    systems and its applications. `important`
-10. Differentiate among EDP, MIS and DSS in a tabular form. `2 times` `important`
-11. What is Financial MIS? What are the key decisions supported by a Financial MIS? Discuss
+9.  What is Financial MIS? What are the key decisions supported by a Financial MIS? Discuss
     each in detail.
-12. What are Functional MIS? Discuss in detail the Marketing MIS.
-13. How to develop Production based MIS? Explain with an example.
-14. What is MIS? Discuss various activities performed by MIS in an Organization.
-15. What is a Marketing information system? What are the inputs and outputs of a Marketing
+10. What are Functional MIS? Discuss in detail the Marketing MIS.
+11. How to develop Production based MIS? Explain with an example.
+12. What is MIS? Discuss various activities performed by MIS in an Organization.
+13. What is a Marketing information system? What are the inputs and outputs of a Marketing
     MIS? Discuss the model for Marketing MIS.
-16. Explain the Frame work of MIS in detail with example.
-17. Explain marketing, personnel, financial and production of MIS
-18. How the evaluation of MIS can be performed?
-19. How the financial based MIS can be designed and implemented? Explain with an
+14. Explain the Frame work of MIS in detail with example.
+15. Explain marketing, personnel, financial and production of MIS
+16. How the evaluation of MIS can be performed?
+17. How the financial based MIS can be designed and implemented? Explain with an
     example.
 
 ## Topics
