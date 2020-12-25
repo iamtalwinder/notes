@@ -25,42 +25,42 @@
 
 1.  What is OAS in management information system?
 2.  What are sub systems in MIS?
-3.  What are the pitfalls in the development of MIS? `important`
-4.  What are the pitfalls in the planning of MIS?
-5.  What is Production MIS?
-6.  What is Financial MIS?
-7.  How Information Technology is related with MIS?Explain
-8.  MIS deals with different classes of decisions.How?
+3.  What are the pitfalls in the development of MIS? `important` `*`
+4.  What are the pitfalls in the planning of MIS? `*`
+5.  What is Production MIS? `*`
+6.  What is Financial MIS? `*`
+7.  How Information Technology is related with MIS? Explain `*`
+8.  MIS deals with different classes of decisions.How? `*`
 9.  What are the Components of MIS? `important`
-10. List functional requirements of Personnel based MIS.
-11. What are the key decisions supported by Personnel MIS?
+10. List functional requirements of Personnel based MIS. `*`
+11. What are the key decisions supported by Personnel MIS? `*`
 12. What are the characteristics of MIS? How do MIS differ from TPS and From DSS?
-13. Describe the relationship between TPS, MIS, and ESS.
-14. How MIS is useful for marketing department of an organization?
+13. Describe the relationship between TPS, MIS, and ESS. `*`
+14. How MIS is useful for marketing department of an organization? `*`
 
 ### Long
 
 1.  Define MIS. What are its characteristics? Discuss the components of MIS in detail. `important`
-2.  Explain three level architecture of MIS along with its characteristics and functions.
-3.  Discuss the relevance and role of MIS in various phases of decision-making
-4.  Discuss the steps involved in the implementation procedure of MIS. Elaborate. `important`
-5.  Discuss the different development approaches for MIS.
-6.  Discuss in detail the Pitfalls in management information system development. `important`
-7.  Discuss fundamental pitfalls in Management Information System during design and
-    planning.
-8.  Explain the role of marketing in functioning of management information system.
-9.  What is Financial MIS? What are the key decisions supported by a Financial MIS? Discuss
-    each in detail.
-10. What are Functional MIS? Discuss in detail the Marketing MIS.
-11. How to develop Production based MIS? Explain with an example.
-12. What is MIS? Discuss various activities performed by MIS in an Organization.
+2.  What is MIS? Discuss various activities performed by MIS in an Organization.
+3.  Explain three level architecture of MIS along with its characteristics and functions. `*`
+4.  Discuss the relevance and role of MIS in various phases of decision-making `*`
+5.  Discuss the steps involved in the implementation procedure of MIS. Elaborate. `important` `*`
+6.  Discuss the different development approaches for MIS. `*`
+7.  Discuss in detail the Pitfalls in management information system development. `important` `*`
+8.  Discuss fundamental pitfalls in Management Information System during design and
+    planning. `*`
+9.  Explain the role of marketing in functioning of management information system. `*`
+10. What is Financial MIS? What are the key decisions supported by a Financial MIS? Discuss
+    each in detail. `*`
+11. What are Functional MIS? Discuss in detail the Marketing MIS. `*`
+12. How to develop Production based MIS? Explain with an example. `*`
 13. What is a Marketing information system? What are the inputs and outputs of a Marketing
-    MIS? Discuss the model for Marketing MIS.
-14. Explain the Frame work of MIS in detail with example.
-15. Explain marketing, personnel, financial and production of MIS
-16. How the evaluation of MIS can be performed?
+    MIS? Discuss the model for Marketing MIS. `*`
+14. Explain the Frame work of MIS in detail with example. `*`
+15. Explain marketing, personnel, financial and production of MIS `*`
+16. How the evaluation of MIS can be performed? `*`
 17. How the financial based MIS can be designed and implemented? Explain with an
-    example.
+    example. `*`
 
 ## Topics
 
