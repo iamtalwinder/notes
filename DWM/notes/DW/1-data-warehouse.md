@@ -72,7 +72,7 @@
 8. What are the various designs Consideration of a Data Warehouse? Why data summarization and
    Data cleaning is done?
 9. Elaborate the concept of discovery driven exploration of Data Warehouse with the help of an
-   example.`2 times`
+   example. `2 times`
 
 ## Topics
 

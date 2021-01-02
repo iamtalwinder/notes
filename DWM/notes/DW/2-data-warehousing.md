@@ -10,13 +10,14 @@
   - [Topics](#topics)
     - [Data Warehousing](#data-warehousing-1)
     - [Need of Data Warehousing](#need-of-data-warehousing)
+    - [Data Mining vs Data Warehousing](#data-mining-vs-data-warehousing)
 
 ## Previous Year Questions
 
 ### Short
 
 1. How AI is used in data warehousing? `*`
-2. Differentiate between Data Mining & Data Warehousing `*`
+2. Differentiate between Data Mining & Data Warehousing
 
 ### long
 
@@ -74,3 +75,8 @@ It is an important business intelligence tool, allowing organizations to:
 4.  Improve bottom line:
 
     This allows executives to see where they can adjust their strategy to decrease costs, maximize efficiency and increase sales to improve their bottom line.
+
+### Data Mining vs Data Warehousing
+
+- [www.educba.com](https://www.educba.com/data-warehousing-vs-data-mining/)
+- [www.javatpoint.com](https://www.javatpoint.com/data-mining-cluster-vs-data-warehousing)
