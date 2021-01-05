@@ -8,6 +8,9 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Arrays](#arrays)
+    - [Strings](#strings)
+    - [Vectors](#vectors)
 
 ## Previous Year Questions
 
@@ -23,3 +26,15 @@
 ### Long
 
 ## Topics
+
+### Arrays
+
+- [www.javatpoint.com](https://www.javatpoint.com/array-in-java)
+
+### Strings
+
+- [www.javatpoint.com](https://www.javatpoint.com/java-string)
+
+### Vectors
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/java-util-vector-class-java/)
