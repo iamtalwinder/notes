@@ -12,6 +12,7 @@
     - [Constructors](#constructors)
     - [Abstract class](#abstract-class)
     - [Wrapper class](#wrapper-class)
+    - [Method overloading and overriding](#method-overloading-and-overriding)
 
 ## Previous Year Questions
 
@@ -23,6 +24,10 @@
 4. What is the difference between a class and an object?
 5. What is a constructor? What is the use of constructors?
 6. What are parameterised constructors?
+7. What is an object? How we create it?
+8. What is the task of main() method in a Java program?
+9. What do you mean by method overloading?
+10. What are overriding methods?
 
 ### Long
 
@@ -37,6 +42,11 @@
 5. What are constructors? Explain with example.
 6. What are Constructors? Discuss its features and various types. Also write Java program
    for parameterized constructor `2 times`
+7. What is method overloading? How it is different from method overriding? Explain with
+   an example. `2 times`
+8. Explain following :
+   - Constructers and its syntax
+   - Methods Overloading
 
 ## Topics
 
@@ -55,3 +65,7 @@
 ### Wrapper class
 
 - [www.javatpoint.com](https://www.javatpoint.com/wrapper-class-in-java)
+
+### Method overloading and overriding
+
+- [www.javatpoint.com](https://www.javatpoint.com/method-overloading-vs-method-overriding-in-java)
