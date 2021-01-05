@@ -8,6 +8,8 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [JVM](#jvm)
+    - [Java tokens](#java-tokens)
 
 ## Previous Year Questions
 
@@ -20,3 +22,11 @@
 ### Long
 
 ## Topics
+
+### JVM
+
+- [www.javatpoint.com](https://www.javatpoint.com/jvm-java-virtual-machine)
+
+### Java tokens
+
+- [www.javatpoint.com](https://www.javatpoint.com/java-tokens)
