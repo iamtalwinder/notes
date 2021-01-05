@@ -25,3 +25,7 @@
 4. Explain Java AWT basics. Explain the syntax of TextArea layout in AWT package.
 
 ## Topics
+
+- [www.tutorialspoint.com](https://www.tutorialspoint.com/awt/awt_controls.htm)
+- [www.edureka.co](https://www.edureka.co/blog/java-awt-tutorial/)
+- [www.javatpoint.com](https://www.javatpoint.com/java-awt)
