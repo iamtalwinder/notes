@@ -8,6 +8,7 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Operators](#operators)
 
 ## Previous Year Questions
 
@@ -20,3 +21,8 @@
 1. What are the various operators available in Java? Discuss each with an example.
 
 ## Topics
+
+### Operators
+
+- [www.tutorialspoint.com](https://www.tutorialspoint.com/java/java_basic_operators.htm)
+- [www.javatpoint.com](https://www.javatpoint.com/operators-in-java)
