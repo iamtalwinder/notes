@@ -8,6 +8,8 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Data types](#data-types)
+    - [Final keyword](#final-keyword)
 
 ## Previous Year Questions
 
@@ -24,3 +26,11 @@
 2. What are the various data types available in Java? Explain
 
 ## Topics
+
+### Data types
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/data-types-in-java/)
+
+### Final keyword
+
+- [www.javatpoint.com](https://www.javatpoint.com/final-keyword)
