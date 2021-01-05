@@ -8,6 +8,8 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Applet](#applet-1)
+    - [Applet vs Application](#applet-vs-application)
 
 ## Previous Year Questions
 
@@ -35,3 +37,12 @@
    Applets
 
 ## Topics
+
+### Applet
+
+- [www.tutorialspoint.com](https://www.tutorialspoint.com/java/java_applet_basics.htm)
+- [www.javatpoint.com](https://www.javatpoint.com/Parameter-in-applet)
+
+### Applet vs Application
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/difference-between-a-java-application-and-a-java-applet/)
