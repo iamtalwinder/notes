@@ -8,6 +8,8 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Differentiate between C, C++ and Java](#differentiate-between-c-c-and-java)
+    - [Salient features of Java programming language](#salient-features-of-java-programming-language)
 
 ## Previous Year Questions
 
@@ -24,3 +26,12 @@
    and C++?
 
 ## Topics
+
+### Differentiate between C, C++ and Java
+
+- [www.edureka.co](https://www.edureka.co/blog/difference-between-c-c-and-java)
+
+### Salient features of Java programming language
+
+- [www.javatpoint.com](https://www.javatpoint.com/features-of-java)
+- [www.tutorialspoint.com](https://www.tutorialspoint.com/What-are-the-major-features-of-Java-programming)
