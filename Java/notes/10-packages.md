@@ -8,6 +8,7 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Packages](#packages-1)
 
 ## Previous Year Questions
 
@@ -29,3 +30,8 @@
    - Differentiate between Applet and Applications.
 
 ## Topics
+
+### Packages
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/packages-in-java/)
+- [www.javatpoint.com](https://www.javatpoint.com/package)
