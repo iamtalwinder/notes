@@ -18,6 +18,7 @@
 3. Write steps to create a package
 4. What is a Package? What is the use of Packages in Java?
 5. How would you access System package?
+6. What is CLASSPATH?
 
 ### Long
 
