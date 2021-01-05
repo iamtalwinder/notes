@@ -8,6 +8,10 @@
     - [Short](#short)
     - [Long](#long)
   - [Topics](#topics)
+    - [Classes and Objects](#classes-and-objects)
+    - [Constructors](#constructors)
+    - [Abstract class](#abstract-class)
+    - [Wrapper class](#wrapper-class)
 
 ## Previous Year Questions
 
@@ -17,9 +21,8 @@
 2. What are wrapper classes? `2 times`
 3. Write down the syntax to create class and object?
 4. What is the difference between a class and an object?
-5. What is CLASS PATH?
-6. What is a constructor? What is the use of constructors?
-7. What are parameterised constructors?
+5. What is a constructor? What is the use of constructors?
+6. What are parameterised constructors?
 
 ### Long
 
@@ -36,3 +39,19 @@
    for parameterized constructor `2 times`
 
 ## Topics
+
+### Classes and Objects
+
+- [www.geeksforgeeks.org](https://www.geeksforgeeks.org/classes-objects-java/)
+
+### Constructors
+
+- [www.javatpoint.com](https://www.javatpoint.com/java-constructor)
+
+### Abstract class
+
+- [www.w3schools.com](https://www.w3schools.com/java/java_abstract.asp)
+
+### Wrapper class
+
+- [www.javatpoint.com](https://www.javatpoint.com/wrapper-class-in-java)
