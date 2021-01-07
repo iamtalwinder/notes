@@ -14,6 +14,7 @@
       - [REFERENCE](#reference-1)
     - [Components](#components)
     - [GDSS](#gdss)
+    - [Gorry and Scott Mortan Grid](#gorry-and-scott-mortan-grid)
 
 ## Previous Year Questions
 
@@ -79,3 +80,7 @@ see [here](https://www.yourarticlelibrary.com/management/decision-making-managem
 ### GDSS
 
 see [here](https://www.managementstudyhq.com/features-and-components-of-group-decision-support-system.html)
+
+### Gorry and Scott Mortan Grid
+
+- [www.eazynotes.com](http://www.eazynotes.com/notes/management-information-system/6-decision-support-system-&-concepts.pdf)
