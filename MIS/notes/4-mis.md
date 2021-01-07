@@ -224,7 +224,7 @@ of the resources required to achieve the output
 
 - also known as application control review
 - It determines the adequacy and completeness of MIS controls for the system inputs,
-- outputs and security, etc
+  outputs and security, etc
 - A specific internal audit function is used to perform the compliance audit.
 
 ##### MIS Personnel Productivity Measurement
