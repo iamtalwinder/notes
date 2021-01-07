@@ -41,7 +41,7 @@ strategic planning, management control and operational control.
   these objectives, resources used to obtain these objectives and the policies that are used in the
   acquisition, use and disposition of these resources.
 - Its activities are performed by top management.
-- It helps the organisationto forsee its future in the long run and thus helps the management to
+- It helps the organisation to forsee its future in the long run and thus helps the management to
   take steps accordingly.
 - It helps in policy formulation to clear the goals of organisation.
 - Middle level management is benefited from strategic planning through smooth application of the
