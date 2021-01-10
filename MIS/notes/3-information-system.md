@@ -67,7 +67,7 @@
 2. Define an Information System. Discuss different kinds of information systems in detail.
 3. Explain the phases in the development of information system. Which is the most critical
    phase and why? `*`
-4. Discuss the process of developing an information system. `*`
+4. Discuss the process of developing an information system.
 5. Explain various types of Information Systems in detail along with their analysis and
    design. `*`
 
