@@ -59,7 +59,7 @@
 ### Long
 
 1.  Define MIS. What are its characteristics? Discuss the components of MIS in detail. `important`
-2.  What is MIS? Discuss various activities performed by MIS in an Organization.
+2.  What is MIS? Discuss various activities performed by MIS in an Organization. `*`
 3.  Discuss the steps involved in the implementation procedure of MIS. Elaborate. `important`
 4.  Discuss in detail the Pitfalls in management information system development. `important`
 5.  Discuss fundamental pitfalls in Management Information System during design and
