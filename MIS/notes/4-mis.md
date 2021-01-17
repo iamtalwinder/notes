@@ -78,7 +78,7 @@
 15. Explain the Frame work of MIS in detail with example. `*`
 16. Explain marketing, personnel, financial and production of MIS `*`
 17. How the financial based MIS can be designed and implemented? Explain with an
-    example. `*`
+    example. `*` `important`
 
 ## Topics
 
