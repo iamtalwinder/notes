@@ -66,7 +66,7 @@
     planning.
 6.  How the evaluation of MIS can be performed? `*`
 7.  Explain three level architecture of MIS along with its characteristics and functions. `*`
-8.  Discuss the relevance and role of MIS in various phases of decision-making `*`
+8.  Discuss the relevance and role of MIS in various phases of decision-making `*` `important`
 9.  Discuss the different development approaches for MIS. `*`
 10. Explain the role of marketing in functioning of management information system. `*`
 11. What is Financial MIS? What are the key decisions supported by a Financial MIS? Discuss
