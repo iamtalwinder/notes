@@ -76,7 +76,7 @@
 14. What is a Marketing information system? What are the inputs and outputs of a Marketing
     MIS? Discuss the model for Marketing MIS. `*` `important`
 15. Explain the Frame work of MIS in detail with example. `*`
-16. Explain marketing, personnel, financial and production of MIS `*`
+16. Explain marketing, personnel, financial and production of MIS `*` `important`
 17. How the financial based MIS can be designed and implemented? Explain with an
     example. `*` `important`
 
