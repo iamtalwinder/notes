@@ -41,7 +41,7 @@
 
 ### Short
 
-1.  What is OAS in management information system?
+1.  What is OAS in management information system? `important`
 2.  What are sub systems in MIS?
 3.  What are the pitfalls in the development of MIS? `important`
 4.  What are the pitfalls in the planning of MIS?
