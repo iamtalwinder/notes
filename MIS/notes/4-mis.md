@@ -53,7 +53,7 @@
 10. MIS deals with different classes of decisions.How? `*`
 11. List functional requirements of Personnel based MIS. `*`
 12. What are the key decisions supported by Personnel MIS? `*`
-13. Describe the relationship between TPS, MIS, and ESS. `*`
+13. Describe the relationship between TPS, MIS, and ESS. `*` `important`
 14. How MIS is useful for marketing department of an organization? `*`
 
 ### Long
