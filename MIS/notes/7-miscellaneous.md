@@ -20,7 +20,7 @@
 
 ### Short
 
-1. Discuss Robert Anthony's hierarchy.
+1. Discuss Robert Anthony's hierarchy. `important`
 2. What is structured decision in management information system?
 3. Differentiate between structured and unstructured decisions `4 times` `important`
 
