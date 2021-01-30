@@ -18,7 +18,7 @@
 
 ### Short
 
-1. Write about the importance of Artificial Intelligence
+1. Write about the importance of Artificial Intelligence `important`
 2. What is Artificial Intelligence? `important`
 3. Discuss Discovery driven cube.
 4. What are the efficient methods of cube computation? Discuss any one in brief
