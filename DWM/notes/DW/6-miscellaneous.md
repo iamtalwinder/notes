@@ -21,7 +21,7 @@
 1. Write about the importance of Artificial Intelligence `important`
 2. What is Artificial Intelligence? `important`
 3. Discuss Discovery driven cube.
-4. What are the efficient methods of cube computation? Discuss any one in brief
+4. What are the efficient methods of cube computation? Discuss any one in brief `important`
 5. Define Data cube.
 6. What is Attribute- Oriented Induction? `2 times`
 
