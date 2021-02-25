@@ -22,7 +22,7 @@
 ### Long
 
 1. Write a program to implement Multiple Inheritance using Interfaces. Also explain the
-   process.
+   process. `important`
 2. - What is Interface in Java? How is interface implemented?
    - What is an abstract class? What is its use in Java?
 3. How you can achieve the feature of multiple inheritance in java? `2 times`
